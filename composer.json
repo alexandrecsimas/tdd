@@ -8,6 +8,11 @@
         }
     },
     "scripts": {
-        "test":"vendor/bin/phpunit"
+        "test":"vendor/bin/phpunit --testdox --colors"
+    },
+
+    "config": 
+    {
+        "bin-dir": "bin/"
     }
 }
