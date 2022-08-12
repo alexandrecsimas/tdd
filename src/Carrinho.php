@@ -8,11 +8,11 @@ class Carrinho
 
     public function addProduto($produto)
     {
-        
+        $this->produtos[] = $produto;
     }
 
     public function getProdutos()
     {
-        return [];
+        return $this->produtos;
     }
 }
